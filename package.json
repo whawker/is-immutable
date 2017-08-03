@@ -1,0 +1,32 @@
+{
+  "name": "is-immutable",
+  "version": "1.0.0",
+  "description": "A function to test if an object is an immutable-js object",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "./node_modules/.bin/babel src --out-dir dist --presets=es2015",
+    "test": "./node_modules/.bin/jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/whawker/is-immutable.git"
+  },
+  "keywords": [
+    "immutable"
+  ],
+  "author": "Will Hawker",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/whawker/is-immutable/issues"
+  },
+  "homepage": "https://github.com/whawker/is-immutable#readme",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1",
+    "immutable": ">=3.0.0",
+    "jasmine": "^2.7.0"
+  },
+  "peerDependencies": {
+    "immutable": ">=3.0.0"
+  }
+}
