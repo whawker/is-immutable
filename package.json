@@ -1,8 +1,11 @@
 {
   "name": "is-immutable",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A function to test if an object is an immutable-js object",
   "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "./node_modules/.bin/babel src --out-dir dist --presets=es2015",
     "test": "./node_modules/.bin/jasmine"
