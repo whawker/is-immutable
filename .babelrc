@@ -3,7 +3,7 @@
     ["env", { "modules": false }]
   ],
   "env": {
-    "umd": {
+    "cjs": {
       "plugins": ["transform-es2015-modules-commonjs"]
     }
   }

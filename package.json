@@ -8,8 +8,8 @@
     "dist"
   ],
   "scripts": {
-    "build": "npm run build:umd && npm run build:es",
-    "build:umd": "BABEL_ENV=umd babel src --out-dir dist",
+    "build": "npm run build:cjs && npm run build:es",
+    "build:cjs": "BABEL_ENV=cjs babel src --out-dir dist",
     "build:es": "BABEL_ENV=es babel src --out-dir dist/es",
     "test": "jasmine"
   },
