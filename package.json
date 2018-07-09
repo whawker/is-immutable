@@ -1,6 +1,6 @@
 {
   "name": "is-immutable",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A function to test if an object is an immutable-js object",
   "main": "dist/index.js",
   "files": [
